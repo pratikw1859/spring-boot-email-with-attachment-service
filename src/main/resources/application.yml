@@ -1,0 +1,23 @@
+server:
+  port: 2019
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: springboot18@gmail.com
+    password: springboot@
+    
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+ 
+  
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
